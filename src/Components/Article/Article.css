@@ -1,0 +1,192 @@
+.articles {
+    font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  color: #0E2368;
+  margin-left: 140px;
+  margin-top: 158px;
+  margin-bottom: 41px;
+  
+  }
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    margin-bottom: 64px;
+  }
+  .card-content {
+  width: 381px;
+  height: 554px;
+  background: #FFFFFF;
+  border: 1.37039px solid rgba(147, 162, 211, 0.38);
+  border-radius: 20.937px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .card-content img {
+    margin: 27px;
+  }
+  .card-content h1 {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27px;
+  color: #0E2368;
+  align-self: flex-start;
+  margin-left: 43.17px;
+  }
+  .card-content p {
+  width: 295px;
+  height: 81px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #444957;
+  text-align: left;
+  margin-top: 14px;
+  overflow: hidden;
+  
+  }
+  .card-content button {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.4447px;
+  line-height: 36px; 
+  letter-spacing: 0.03em;
+  color: #424961;
+  border: 1px solid #0E2368;
+  padding: 3px 26px;
+  border-radius: 21px;
+  align-self: baseline;
+  margin-top: 33px;
+  margin-left: 43.17px;
+  }
+  .arrow button {
+    width: 28px;
+    height: 29px;
+    border: 1px solid #424961;
+    border-radius: 5px;
+  }
+  .page {
+  margin: 0 10px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #424961;
+  }
+
+
+
+  @media (max-width: 376px) {
+
+    .articles {
+        font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 54px;
+      letter-spacing: 0.04em;
+      color: #0E2368;
+      margin-left: 80px;
+      margin-top: 132px;
+      margin-bottom: 23px;
+      
+      }
+      .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 61px;
+        margin-bottom: 64px;
+      }
+      .card-content {
+      width: 271px;
+      height: 484px;
+      background: #FFFFFF;
+      border: 0.876168px solid #373737;
+      border-radius: 26.7752px;
+      display: flex;
+      flex-direction: column;
+      }
+      .card-content img {
+        width: 204px;
+        height: 166px;
+        border-radius: 27px;
+        margin: 40px 33px 39px 34px;
+      }
+      .card-content h1 {
+        font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 35px;
+      color: #0E2368;
+      align-self: center;
+      margin-left: 0;
+      margin-bottom: 6px;
+      text-align: center;
+      }
+      .card-content p {
+        width: 213px;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 22px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      margin-bottom: 26px;
+      margin-top: 0;
+      
+      }
+      .card-content button {
+      font-family: 'Source Sans Pro';
+      width: 118px;
+      height: 26px;
+      font-size: 11px;
+      line-height: 46px;
+      letter-spacing: 0.03em;
+      color: #424961;
+      border: 2px solid #424961;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 26px;
+      align-self: center;
+      margin-left: 0;
+      }
+      .arrow button {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #424961;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .page {
+      margin: 0px 7px;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 27px;
+      color: #424961;
+      margin-top: -5px;
+      }
+    
+  }
